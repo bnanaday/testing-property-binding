@@ -7,7 +7,7 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
-  itemImageUrl = 'https://i.ebayimg.com/images/g/gFEAAOSwQJdiTTt9/s-l500.jpg';
+  itemImageUrl = '../assets/phone.png';
 
   callPhone(value: string) {
     console.warn(`Calling ${value} ...`);
